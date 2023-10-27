@@ -1,0 +1,1015 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}   
+    
+
+.conatactparent{
+    padding: 5px 140px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header{
+    background-color: #5E3030;
+    font-family: 'Poppins', sans-serif;
+}
+.phoneicon{
+    color: grey;
+    position: relative;
+    top: 3px;
+}
+.whitetext{
+    color:white;
+}
+.gmailicon{
+    color:grey;
+}
+.gmaillink{
+    text-decoration: none;
+    color:white;
+}
+.contact1{
+    width: 400px;
+}
+.clockicon{
+    position: relative;
+    top: 3px;
+}
+.contact2{
+    width:400px;
+    margin-left: 439px;
+}
+.logoparent{
+    padding:40px 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.logo1{
+    width: 220px;
+}
+.logoheading{
+    font-size: 17px;
+    font-weight: 900px;
+}
+.logopara{
+    margin-left: 25px;
+}
+.logoicon{
+    position: relative;
+    top: 3px;
+}
+.consultant{
+    text-decoration: none;
+    color: white;
+    background-color: #8F4646;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.logo2{
+    width: 150px;
+    margin-left: 229px;
+}
+.logo3{
+    width: 200px;
+}
+.logo4{
+    width: 240px;
+    margin-top: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(146, 142, 142);
+    margin-left: 5px;
+    padding:20px;
+    font-weight: 700;
+}
+nav ul li a:hover{
+    color:white;
+}
+nav{
+    padding:0px 140px;
+    display:flex;
+    position:sticky;
+    top: 0px;
+    z-index:2;
+    height: 70px;
+    background-color: black;
+    position:sticky;
+    top: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul{
+    padding-top: 20px;
+    
+    display:inline-flex;
+    list-style: none;
+}
+.dropdown1{
+    display:none;
+    width:265px;
+    background-color: rgb(33, 30, 30);
+    position:absolute;
+    top:70px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+}
+nav ul li:hover .dropdown1{
+display: block;
+}
+.searchbox{
+    margin-left: 308px;
+    padding:20px 0px;
+}
+.rough{
+    background-color: pink;
+    height:2000px;
+}
+.sliderwelcome{
+    font-size: 20px;
+    color:white;
+    position:relative;
+    bottom:300px;
+    font-family: 'Playfair Display', serif;
+}
+.sliderheading{
+    font-size: 100px;
+    color:white;
+    font-family:'Playfair Display', serif;
+    position:relative;
+    bottom:300px;
+}
+.sliderpara{
+    color:white;
+    position: relative;
+    bottom:300px;
+}
+.sliderbutton{
+    padding:10px 20px;
+    background-color: #8F4646;
+    text-decoration: none;
+    color:white;
+    position:relative;
+    bottom:200px;
+    border-radius: 5px;
+}
+
+.sliderbutton:hover{
+    color:black;
+    background-color: white;
+}
+
+.flexcontainer1{
+    width:620px;
+    height:467px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.flexcontainer2{
+    width:620px;
+    height:467px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 40px;
+    box-shadow: 20px 20px  50px 1px rgb(209, 206, 206);
+}
+.flexcontainer1 img{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.flexbox1{
+    padding:0px 139px;
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+    position:relative;
+    bottom:100px;
+    z-index:1;
+}
+.firstcarousel{
+    z-index:0;
+}
+.flexcontainer2 h4{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+.flexcontainer2 img{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.firsthr{
+    width:40px;
+    height:3px;
+    background-color:#5E3030;
+    margin-bottom: 30px;
+}
+.greytext{
+    color:grey;
+}
+.legal{
+    text-align: center;
+}
+.legalheading{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+.legalhr{
+    width:50px;
+    margin-left: 734px;
+    height:3px;
+    background-color:#5E3030;
+    color:#5E3030
+}
+.corporate1{
+    width:387px;
+    height:350px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px  40px 10px rgb(236, 232, 232);
+    padding:30px;
+    text-align: center;
+}
+.corporate2{
+    width:387px;
+    height:350px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px  40px 10px rgb(236, 232, 232);
+    padding:30px;
+    text-align: center;
+}
+.corporateparent{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0px 139px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.corporate1 h3{
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.corporate1 a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    color:#5E3030;
+    
+}
+.corporate1 p{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.corporate2 h3{
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.corporate2 a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    color:#5E3030;
+    
+}
+.corporate2 p{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.corporate1:hover{
+    border-bottom: 2px solid #8F4646;
+}
+.corporate2:hover{
+    border-bottom: 2px solid #8F4646;
+}
+.robileftpic{
+    width:50%;
+    height:687px;
+    background-image: url('../image/robithakurleft.jpg');
+    background-size: cover;
+}
+.robiright{
+    width:50%;
+    height:687px;
+    background-image: url('../image/robithakur.jpg');
+    background-size: cover;
+}
+.robiparent{
+    display: flex;
+}
+.robileftcolor{
+    width:100%;
+    height:100%;
+    background-color: rgba(82, 34, 34,0.7);
+    padding:125px 0px 80px 150px;
+}
+.ourexpertise h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    color:white;
+    font-weight: 700;
+}
+.ourexpertise hr{
+    width: 40px;
+    height: 5px;
+    background-color:white;
+}
+.ourexpertise{
+    margin-bottom: 50px;
+}
+.robiflexbox1{
+    display:flex;
+    flex-wrap:nowrap;
+    margin-bottom: 80px;
+    padding:0px 60px 0px 0px;
+}
+.robiflexcontainer2{
+    margin-left: 30px;
+    font-size:27px;
+    color:white;
+}
+.robiflexcontainer1{
+    margin-top: 20px;
+    width:130px;
+    height:57px;
+    
+}
+.robiflexcontainer2 p{
+    font-size: 15px;
+}
+.robiflexcontainer1 img{
+    width:100%;
+    height:100%;
+}
+.blackflexbox div{
+    width:25%;
+    height:300px;
+    
+    text-align: center;
+}
+.blackflexbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color:white;
+}
+.blackflexbox div h1{
+    font-size: 52px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    margin-top: 100px;
+}
+.blackflexbox div p{
+    font-size: 17px;
+}
+.partnerspic{
+    height:550px;
+    background-image: url('../image/goli.jpg');
+    background-size: cover;
+}
+.partnerscolor{
+    height:100%;
+    background-color: rgba(56, 54, 54, 0.7);
+    padding:0px 139px;
+    display: flex;
+    flex-wrap:wrap;
+    overflow:hidden;
+}
+.partners1{
+    width:393px;
+    height:350px;
+    background-color: white;
+    position:relative;
+    top:200px;
+    overflow:hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.partners2{
+    width:393px;
+    height:350px;
+    background-color: white;
+    margin-left:30px;
+    position:relative;
+    top:200px;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.partners1 img{
+    filter:grayscale(100%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+.partners2 img{
+    filter:grayscale(100%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.partners1:hover {
+    background-color: grey;
+}
+.partners2:hover {
+    background-color: grey;
+}
+.partners1:hover img{
+    filter:grayscale(0%);
+    transform:scale(1.1);
+    transition:0.5s;
+}
+.partners2:hover img{
+    filter:grayscale(0%);
+    transform:scale(1.1);
+    transition:0.5s;
+}
+.picturenameparent{
+    padding:0px 139px;
+    display:flex;
+    flex-wrap:wrap;
+    background-color: rgb(206, 201, 201);
+}
+.picturename1{
+    width:393px;
+    height:122px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 35px;
+    text-align: center;
+}
+.picturename2{
+    padding: 35px;
+    text-align: center;
+    width:393px;
+    height:122px;
+    margin-left: 30px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.picturenamelink{
+    text-decoration: none;
+    color:black;
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+}
+.arrowparent{
+    background-color: rgb(206, 201, 201);
+    padding:30px 139px 100px 139px;
+    text-align: center;
+}
+.arrow1{
+    padding:20px 27px;
+    background-color: white;
+    color:black;
+}
+.bandparent{
+    padding:0px 190px 100px 190px;
+    background-color: rgb(206, 201, 201);
+}
+.band2{
+    margin-left: 97px;
+}
+.clientpic{
+    height:600px;
+    background-image: url('../image/lawpic1.jpg');
+    background-size: cover;
+}
+.clientcolor{
+    height:100%;
+    background-color: rgba(73, 25, 25, 0.7);
+    padding:60px;
+}
+.clientborder{
+    height: 100%;
+    padding:60px;
+    border:1px solid white
+}
+.clientheading{
+    text-align: center;
+}
+.clientheading p{
+    color: #d28989;
+    font-size: 20px;
+    font-weight: 700;
+}
+.clientheading h3{
+    color: white;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.clientheading hr{
+    height: 5px;
+    width:60px;
+    background-color: #d28989;
+    margin-left: 614px;
+}
+.clientpara{
+    font-size: 20px;
+    color:#d28989 ;
+    margin-top: 60px;
+    column-count: 2;
+    column-fill: balance;
+}
+.casestudies{
+    text-align: center;
+    margin-top: 70px;
+}
+.casestudies h3{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+
+}
+.casestudies hr{
+    width:50px;
+    height:3px;
+    background-color:#5E3030;
+    margin-left: 736px;
+}
+.casestudyimageparent{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    transition:0.5s;
+}
+
+   
+    
+
+.casestudy1{
+    width:303px;
+    height:370px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url('../image/image1.png');
+    background-size: cover;
+    transition:0.5s;
+}
+.casestudy2{
+    width:303px;
+    height:370px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url('../image/image2.png');
+    background-size: cover;
+    transition:0.5s;
+}
+.casestudy3{
+    width:303px;
+    height:370px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url('../image/image3.png');
+    background-size: cover;
+    transition:0.5s;
+}
+.casestudy4{
+    width:303px;
+    height:370px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url('../image/image4.png');
+    background-size: cover;
+    transition:0.5s;
+}
+.casestudy5{
+    width:303px;
+    height:370px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url('../image/image5.png');
+    background-size: cover;
+    transition:0.5s;
+}
+.casestudycolor{
+    width:100%;
+    height: 100%;
+    padding:30px;
+    transition:0.5s;
+    background-color: rgba(149, 59, 59, 0.7);
+    display: none;
+}
+.casestudycolor p{
+    margin-top: 100px;
+    color: rgb(197, 194, 194);
+    font-weight: 500;
+}
+.casestudycolor h4{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+
+}
+.casestudyimageparent div:hover .casestudycolor{
+    display: block;
+    transition:1s;
+}
+
+.casestudyimageparent div:hover{
+    background-size: 400px 400px;
+    transition:1s;
+}
+.arrow2{
+    margin-top: 30px;
+    text-align: center;
+}
+.arrow2 i{
+    padding:20px 30px;
+    background-color: rgb(205, 201, 201);
+    color:black;
+    
+}
+.formparent{
+    margin-bottom: 70px;
+}
+
+.form1{
+    width:805px;
+    height:650px;
+    background-color: pink;
+    margin:70px auto;
+    background: url('../image/andhakanun.jpg');
+    background-size: cover;
+    
+}
+.formcolor{
+    width:100%;
+    height:100%;
+    background-color: rgba(71, 69, 69, 0.7);
+    padding: 50px;
+}
+.formcolor1{
+    text-align: center;
+    padding: 0px 100px;
+    margin-bottom: 50px;
+}
+.formcolor1 h3{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 41px;
+    font-weight: 700;
+
+}
+.formcolor1 p{
+    color:rgb(219, 213, 213);
+    font-size: 16px;
+}
+
+.formelement1{
+    width:49%;
+    height:60px;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    
+}
+.formelement2{
+    width:48%;
+    height:60px;
+    margin-bottom: 10px;
+    
+}
+.textareaclass{
+    height: 150px;
+    width:100%;
+    margin-bottom: 15px;
+}
+.submitnow{
+    padding:15px 299px;
+    
+    text-align: center;
+    text-decoration: none;
+    background-color: #8F4646;
+    color: white;
+    font-weight: 700;
+}
+.submitnow:hover{
+    background-color: white;
+    color:black;
+}
+.manphoto{
+    width:100%;
+    height:803px;
+    background-image: url('../image/man.jpg');
+    background-size: cover;
+}
+.mancolor{
+    width:100%;
+    height:100%;
+    background-color: rgba(95, 35, 35, 0.7);
+    padding:40px;
+}
+.mancontent{
+    width:100%;
+    height:100%;
+    border:1px solid white;
+    padding:50px 270px;
+    text-align: center;
+}
+.testimonial{
+    color: rgba(252, 173, 173, 0.7);
+    margin-top: 30px;
+}
+.wordsfromclient{
+    font-family: 'Playfair Display', serif;
+    color:white;
+    font-size: 53px;
+    font-weight: 700;
+}
+.wordsfromclient2{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 207px;
+    font-weight: 700;
+}
+.manpara{
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 19px;
+    position: relative;
+    bottom:130px;
+}
+.manflexbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.accountpic img{
+    border-radius: 50px;
+}
+.accountpic{
+    margin-left: 300px;
+
+}
+
+
+.accounttext h5{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: 900;
+}
+.accounttext p{
+    color: #ed9797;
+}
+.accounttext{
+    text-align: left;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+.manflexbox{
+    transform: translate(0px, -110px);
+}
+.ourblogparentpic{
+    width: 100%;
+    height:895px;
+    background-image: url('../image/graybackground.jpg');
+    background-size: cover;
+    margin-top: 100px;
+    
+}
+.ourblogtext{
+    text-align: center;
+    padding:20px;
+}
+.ourblogtext h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.ourblogpicflexbox{
+    display:flex;
+    padding:50px 150px;
+    flex-wrap: wrap;
+}
+.ourblogflex1{
+    width:386px;
+    height:420px;
+    
+    border-radius: 5px;
+    background-color: white;
+}
+.ourblogflex2{
+    width:386px;
+    height:420px;
+    
+    border-radius: 5px;
+    margin-left: 30px;
+    background-color: white;
+}
+.ourblogpic1{
+    width:100%;
+    height:248px;
+    overflow: hidden;
+}
+.ourblogpic1 img{
+    width:100%;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.ourblogpic1:hover img{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.blogtext1{
+    padding: 30px;
+}
+.blogtext1 a{
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: 900;
+    
+    color: black;
+
+}
+.bloggreytext{
+    color: gray;
+    margin-top: 20px;
+}
+.readtheblog{
+    text-align: center;
+    margin-top: 90px;
+}
+.readtheblog a{
+    text-decoration: none;
+    color: white;
+    background-color: #5E3030;
+    padding:10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.readtheblog a:hover{
+    background-color: white;
+    color: #5E3030;
+}
+.bookflexcontainer1{
+    width:50%;
+    height:737px;
+    background-image: url('../image/books.jpg');
+    background-size: cover;
+}
+.bookflexcontainer1color{
+    width:100%;
+    height:100%;
+    background-color: rgba(57, 22, 22, 0.7);
+}
+.bookparentflexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bookflexcontainer2{
+    width:50%;
+    height:737px;
+    padding: 120px 170px 70px 90px;
+    background-color: rgb(223, 219, 213);
+}
+.bookflexcontainer2 h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.bookflexcontainer2 hr{
+    background-color: #5E3030;
+    width: 50px;
+    height: 3px;
+}
+.callnow{
+    color: #a95959;
+    font-size: 26px;
+    font-weight: 600;
+}
+.conatactattorna{
+    font-size: 20px;
+    color:rgb(78, 75, 75);
+}
+.subscribebutton{
+    margin-top: 50px;
+    background-color: white;
+    width: 400px;
+    height: 50px;
+}
+.subscribebutton input{
+    width:200px;
+    height: 50px;
+    border:none;
+    outline:none;
+}
+.subscribebutton a{
+    text-decoration: none;
+    font-weight: 900;
+    background-color: #8F4646;
+    color: white;
+    padding:14px 10px;
+    margin-left: 87px;
+
+}
+.footer1flexbox{
+    background-color: rgb(40, 39, 39);
+    display:flex;
+    flex-wrap: wrap;
+    padding:75px 159px;
+}
+
+
+.footer1flexbox div{
+    width:300px;
+    
+    padding: 10px;
+    
+
+
+}
+.footer1flexcontainer1 p{
+    color: rgb(192, 187, 187);
+    margin-top: 20px;
+    font-size: 18px;
+}
+.footer1flexcontainer2 h3{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+}
+.f1f2p1{
+    color: rgb(192, 187, 187);
+    margin-top: 28px;
+    font-size: 18px;
+}
+.numberwhite{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.attornagmailred{
+    color: #8F4646;
+    font-size: 18px;
+}
+.footer1flexcontainer3 h3{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+
+}
+.footer1flexcontainer3 ul{
+    margin-top: 23px;
+    padding:0px;
+}
+.footer1flexcontainer3 ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(192, 187, 187);
+
+    
+}
+.footer1flexcontainer3 ul li{
+    margin-top: 5px;
+}
+.footer1flexcontainer3 ul li a:hover{
+    color:white;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 161px;
+}
+footer ul{
+    display: inline-flex;
+    padding: 0px;
+    
+}
+footer ul li a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+    color: rgb(192, 187, 187);
+    
+}
+.copyrightcontainer p{
+    font-size: 18px;
+    color: rgb(192, 187, 187);
+    
+}
+.ulcontainer{
+    margin-left: 397px;
+}
+footer ul li a:hover{
+    color:white;
+}
